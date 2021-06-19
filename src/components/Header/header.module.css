@@ -1,0 +1,13 @@
+.headerContent{
+    border: 1px solid var(--main-color);
+    height: 70px;
+    background: var(--header-color);
+    display: grid;
+}
+.iconDisney{
+    display:grid;
+    height:70px;    
+}
+.navBar{
+    color: var(--font-color);
+}
