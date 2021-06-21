@@ -1,5 +1,6 @@
 :root {
     --main-color:red;
-    --header-color:#090b13;
+    --bg-header-color:#090b13;
+    --bg-home-color:#040714;
     --font-color:white;
 }

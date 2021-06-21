@@ -1,10 +1,10 @@
-import React from 'react';
-import homesStyles from '../Home/home.module.css';
+import React from 'react'
+import homeStyles from '../Home/home.module.css'
 
 const Home = () => {
     return( 
-        <div className={homesStyles.home}>
-
+        <div className={homeStyles.homeContainer}>
+            <p>'Holi'</p>
         </div>
     )
 }

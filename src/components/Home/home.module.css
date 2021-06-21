@@ -1,0 +1,17 @@
+.homeContainer{
+    border:1px solid red;
+    /*min-height: calc(100vh -70px);*/
+    padding: 0 calc(3.5vw + 5px);
+    background: var(--bg-home-color);
+    position: relative;
+    height: 500px;
+}
+.homeContainer::before{
+    background: url('../../images/home-background.png') center center / cover no-repeat fixed;
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+}

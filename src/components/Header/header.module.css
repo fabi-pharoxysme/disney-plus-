@@ -1,6 +1,6 @@
 .headerContent{
     height: 70px;
-    background: var(--header-color);
+    background: var(--bg-header-color);
     display: flex;
     align-items: center;
     padding:0 36px;
@@ -13,18 +13,35 @@
     display: flex;
     flex: 1;
     align-items: center;
-    margin-left: 25px;
+    padding: 0 12px;
 }
 .navBarLink{
-    display:flex;
+    display: flex;
     align-items: center;
-    border: 1px solid red;
     color:var(--font-color);
-    font-size: .8em;
+    font-size: 13px;
     text-transform: uppercase;
-    padding: 0 12px;
     letter-spacing: 1.42px;
+    margin-left: 25px;
     cursor: pointer;
+    position:relative;
+}
+.navBarLink::after{
+    content: "";
+    height: 2px;
+    background: var(--font-color );
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -6px;
+    opacity: 0;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: all .25s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+}
+.navBarLink:hover::after{
+    transform: scaleX(1);
+    opacity: 1;
 }
 .iconNavBarLink{
     height: 20px;
