@@ -1,0 +1,9 @@
+.slider{
+    border:1px solid blue;
+    margin-top: 20px;
+}
+.imgContent img{
+    border: 1px solid green;
+    width: 100%;
+    height: 100%;
+}
