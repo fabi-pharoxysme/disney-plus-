@@ -1,6 +1,10 @@
+*{
+    box-sizing: border-box;
+}
 :root {
     --main-color:red;
     --bg-header-color:#090b13;
     --bg-home-color:#040714;
     --font-color:white;
 }
+

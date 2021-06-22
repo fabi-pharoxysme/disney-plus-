@@ -1,10 +1,10 @@
 .homeContainer{
-    border:1px solid red;
     /*min-height: calc(100vh -70px);*/
     padding: 0 calc(3.5vw + 5px);
     background: var(--bg-home-color);
     position: relative;
     height: 500px;
+    overflow-x: hidden;
 }
 .homeContainer::before{
     background: url('../../images/home-background.png') center center / cover no-repeat fixed;

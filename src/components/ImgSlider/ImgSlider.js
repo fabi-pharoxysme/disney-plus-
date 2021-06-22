@@ -8,12 +8,16 @@ import sliderImg1 from  '../../images/slider-badag.jpg';
 
 const ImgSlider = () => {
     const settings = {
-        doots:true,
+        className:"center",
+        centerMode:true,
+        dots:true,
         infinite:true,
         speed:500,
         slidesToShow:1,
         slidesToScroll: 1,
-        autoplay:true
+        autoplay:true,
+        autoplaySpeed:2000,
+        pauseOnHover:true
     }
     return(
         <div>
