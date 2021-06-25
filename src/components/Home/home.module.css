@@ -3,7 +3,7 @@
     padding: 0 calc(3.5vw + 5px);
     background: var(--bg-home-color);
     position: relative;
-    height: 500px;
+    height: 100vh;
     overflow-x: hidden;
 }
 .homeContainer::before{
