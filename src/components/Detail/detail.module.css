@@ -1,5 +1,109 @@
 .detailContainer{
     min-height: calc(100vh -70px);
-    border: 1px solid red;
     padding: 0 calc(3.5vw + 5px);
+    position:relative;
+    color: rgb(249, 249, 249)
+}
+.bgContainer{
+    position:fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    opacity: .8;
+}
+.bgContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.imgTitle{
+    height: 30vh;
+    width: 35vw;
+    min-height: 170px;
+    min-width: 200px;
+    margin-top:60px;
+}
+.imgTitle img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.controls{
+    display: flex;
+    align-items: center;
+}
+.playBtn{
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    height: 56px;
+    background: rgb(249,249,249);
+    padding: 0px 24px;
+    margin-right: 22px;
+    letter-spacing: 1.8px;
+    cursor: pointer;
+}
+.playBtn:hover{
+    background: rgb(198, 198, 198);
+}
+.trailerBtn{
+    border: 1px solid rgb(249,249,249);
+    border-radius: 4px;
+    color: rgb(249,249,249);
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    height: 56px;
+    background: rgb(0,0,0,0.3);
+    padding: 0px 24px;
+    margin-right: 22px;
+    letter-spacing: 1.8px;
+    cursor: pointer;
+}
+.trailerBtn:hover{
+    background: rgb(198, 198, 198);
+}
+.addBtn{
+    margin-right: 16px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid white;
+    background: rgba(0,0,0,0.6);
+    cursor: pointer;
+}
+.addBtn{
+    font-size: 30px;
+    color: white;
+}
+.groupWathcBtn{
+    margin-right: 16px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid white;
+    background: rgba(0,0,0);
+    cursor: pointer;
+}
+.subTitle{
+    font-size: 15px;
+    min-height: 20px;
+    margin-top: 26px;
+}
+.description{
+    line-height: 1.4;
+    font-size: 20px;
+    margin-top: 16px;
+    font-weight: 450;
+    max-width: 260px;
 }
