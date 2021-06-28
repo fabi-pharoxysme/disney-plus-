@@ -11,30 +11,30 @@ import serieIcon from '../../images/series-icon.svg';
 const Header = () => {
     return (
         <div className={headerStyles.headerContent}>
-            <img className= {headerStyles.iconDisney} src={logo}/>
+            <img className= {headerStyles.iconDisney} src={logo} alt=''/>
             <nav className={headerStyles.navBar}>
                 <a className={headerStyles.navBarLink}>
-                    <img className={headerStyles.iconNavBarLink} src={homeIcon}/>
+                    <img className={headerStyles.iconNavBarLink} src={homeIcon} alt=''/>
                     home
                 </a>
                 <a className={headerStyles.navBarLink}>
-                    <img className={headerStyles.iconNavBarLink} src={searchIcon}/>
+                    <img className={headerStyles.iconNavBarLink} src={searchIcon} alt=''/>
                     search
                 </a>
                 <a className={headerStyles.navBarLink}>
-                    <img className={headerStyles.iconNavBarLink} src={watchListIcon}/>
+                    <img className={headerStyles.iconNavBarLink} src={watchListIcon} alt=''/>
                     watchList
                 </a>
                 <a className={headerStyles.navBarLink}>
-                    <img className={headerStyles.iconNavBarLink} src={originalIcon}/>
+                    <img className={headerStyles.iconNavBarLink} src={originalIcon} alt=''/>
                     originals
                 </a>
                 <a className={headerStyles.navBarLink}>
-                    <img className={headerStyles.iconNavBarLink} src={movieIcon}/>
+                    <img className={headerStyles.iconNavBarLink} src={movieIcon} alt=''/>
                     movies
                 </a>
                 <a className={headerStyles.navBarLink}>
-                    <img className={headerStyles.iconNavBarLink} src={serieIcon}/>
+                    <img className={headerStyles.iconNavBarLink} src={serieIcon} alt=''/>
                     series
                 </a>
             </nav>

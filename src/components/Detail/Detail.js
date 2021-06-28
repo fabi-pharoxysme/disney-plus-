@@ -8,25 +8,25 @@ const Detail = () => {
     return(
         <div className={detailStyle.detailContainer}>
             <div className={detailStyle.bgContainer}>
-                <img src='https://lumiere-a.akamaihd.net/v1/images/2965757bb69beda9b610e5d5a587be89_4096x2270_9c9fbf6f.jpeg?region=30%2C0%2C4036%2C2270'/>
+                <img src='https://lumiere-a.akamaihd.net/v1/images/2965757bb69beda9b610e5d5a587be89_4096x2270_9c9fbf6f.jpeg?region=30%2C0%2C4036%2C2270' alt=''/>
             </div>
             <div className={detailStyle.imgTitle}>
-                <img src='https://lumiere-a.akamaihd.net/v1/images/hb_luca_disneyplus_logo_21383_c05a0131.png'/>
+                <img src='https://lumiere-a.akamaihd.net/v1/images/hb_luca_disneyplus_logo_21383_c05a0131.png' alt=''/>
             </div>
             <div className={detailStyle.controls}>
             <button className={detailStyle.playBtn}>
-                <img src={playIconB}/>
+                <img src={playIconB} alt=''/>
                 <spa>PLAY</spa>
             </button>
             <button className={detailStyle.trailerBtn}>
-                <img src={playIconW}/>
+                <img src={playIconW} alt=''/>
                 <span>Trailer</span>
             </button>
             <button className={detailStyle.addBtn}>
                 <span>+</span>
             </button>
             <button className={detailStyle.groupWathcBtn}>
-                <img src={groupIcon}/>
+                <img src={groupIcon} alt=''/>
             </button>
             </div>
             <div className={detailStyle.subTitle}>

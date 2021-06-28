@@ -10,19 +10,19 @@ const Viewers = () =>{
     return (
         <div className={viewerStyle.viewersContent}>
             <div className={viewerStyle.viewerImgContent}>
-                <img src={disney}/>
+                <img src={disney} alt=''/>
             </div>
             <div className={viewerStyle.viewerImgContent}>
-                <img src={pixar}/>
+                <img src={pixar} alt=''/>
             </div>
             <div className={viewerStyle.viewerImgContent}>
-                <img src={marvel}/>
+                <img src={marvel} alt=''/>
             </div>
             <div className={viewerStyle.viewerImgContent}>
-                <img src={starwars}/>
+                <img src={starwars} alt=''/>
             </div>
             <div className={viewerStyle.viewerImgContent}>
-                <img src={national}/>
+                <img src={national} alt=''/>
             </div>
         </div>
     )

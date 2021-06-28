@@ -23,10 +23,10 @@ const ImgSlider = () => {
         <div>
             <Slider {...settings} className={sliderStyle.slider}>
             <div className={sliderStyle.imgContent}>
-                <img src={sliderImg}/>
+                <img src={sliderImg} alt=''/>
             </div>
             <div className={sliderStyle.imgContent }>
-                <img src={sliderImg1}/>
+                <img src={sliderImg1} alt=''/>
             </div>
             </Slider>
 
